@@ -32,3 +32,11 @@ Notes:
 
 Command Line Coding can be extremely tricky.  I ran an incorrect syntax command that ended up writing over my CPP file.  With that in mind, I created a script that backed up the current working directory to a backup folder.
 I ran that every once in a while to ensure that if I made an error on the execution of the compile statment that I'd atleast have a backup file.  One of the downsides to not coding in an IDE.
+
+
+How to run:
+
+Save the calculatorApp.cpp to a folder of choice (there are no header dependencies currently, that might change.  I'll update if it does.).  Navigate to that folder via command line (might need administrator access of CMD Console).  Then run "g++ calculatorApp.cpp -o calculatorApp.exe".
+This command will compile the cpp file and provide an output exe to use the program.  When you open the exe it will prompt the inputs and will provide an output given that you provide the proper input values.
+
+If there is an error (while inputting the proper values) it might be because you don't have the proper install of C++ or MinGw or System variables set correctly.
